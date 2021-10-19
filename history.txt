@@ -15,9 +15,9 @@
    15  git status
    16  git add --all
    17  git status
-   18  git config --global user.email "pselance@gmail.com"
+   18  git config --global user.email "pslot2000@gmail.com"
    19  git config --global user.name "Pslot"
-   20  git commit -m "This is my first commit"
+   20  git commit -m "This is my newest commit"
    21  git status
    22  git log
    23  git status
