@@ -1,2 +1,3 @@
 Hello This is Pslot's first Document to be saved in a Local Repo
-Git is Awesome 
+Git is Awesome
+How do I resolve merge conflicts 
