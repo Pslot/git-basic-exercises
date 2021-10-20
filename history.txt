@@ -1,0 +1,189 @@
+    1  ls
+    2  pwd
+    3  pwd
+    4  cd myproject
+    5  pwd
+    6  ls
+    7  git init
+    8  git status
+    9  git add -a
+   10  git status
+   11  add -A
+   12  add --all
+   13  add a.txt b.txt
+   14  git add -a
+   15  git status
+   16  git add --all
+   17  git status
+   18  git config --global user.email "pslot2000@gmail.com"
+   19  git config --global user.name "Pslot"
+   20  git commit -m "This is my newest commit"
+   21  git status
+   22  git log
+   23  git status
+   24  git commit -a -m "I modified both files"
+   25  git status
+   26  yim index.txt
+   27  vim index.txt
+   28  git init
+   29  git status
+   30  git add .
+   31  git status
+   32  vim index.txt
+   33  clear
+   34  git diff index.txt
+   35  git commit -m "first commit file in one line"
+   36  vim index.txt
+   37  git diff HEAD index.txt
+   38  git add .
+   39  git diff --staged HEAD index.txt
+   40  commit -m "the file contains 3lines"
+   41  git commit -m "the file contains 3lines"
+   42  vim index.txt
+   43  git init
+   44  touch a.txt
+   45  git add .
+   46  status
+   47  git status
+   48  git commit -m
+   49  git commit -m "a.txt
+   50  clear
+   51  ls
+   52  git status
+   53  git commit -m "a.txt"
+   54  git branch
+   55  git status
+   56  git branch br1
+   57  git status
+   58  git branch
+   59  git checkout br1
+   60  ls
+   61  git branch
+   62  git chechout -b br2
+   63  git checkout -b br2
+   64  git branch
+   65  git checkout master
+   66  touch b.txt c.txt
+   67  git add b.txt:git commit -m "b.txt"
+   68  git add b.txt
+   69  git ls-files
+   70  git commit -m
+   71  git commit -m b.txt
+   72  git add c.txt:git commit -m c.txt "c.txt"
+   73  git add c.txt:git commit c.txt "c.txt"
+   74  git add c.txt;git commit -m
+   75  git add c.txt;git commit -m c.txt "c.txt"
+   76  git --oneline
+   77  ls
+   78  git log --oneline
+   79  git checkout br1
+   80  touch x.txt y.txt
+   81  git add x.txt;git commit -m "x.txt
+   82  ls
+   83  git add x.txt;git commit -m "x.txt"
+   84  git add y.txt;git commit -m "y.txt"
+   85  git init
+   86  touch a.txt b.txt
+   87  git add a.txt;git commit -m "a.txt"
+   88  git add b.txt;git commit -m "b.txt"
+   89  git branch feature
+   90  git branch checkout feature
+   91  git checkout feature
+   92  touch x.txt y.txt
+   93  git add x.txt;git commit -m "x.txt"
+   94  git add y.txt;git commit -m "y.txt"
+   95  git log --oneline
+   96  git checkout master
+   97  git merge feature
+   98  git log --oneline
+   99  git init
+  100  touch a.txt
+  101  git add a.txt;git commit -m "CM1"
+  102  touch b.txt
+  103  git add b.txt;git commit -m "CM2"
+  104  git branch feature
+  105  git checkout feature
+  106  touch x.txt y.txt
+  107  git add x.txt;git commit -m "FC1"
+  108  git add y.txt;git commit -m "FC2"
+  109  git checkout master
+  110  touch c.txt
+  111  git add c.txt;git commit -m "CM3"
+  112  git merge feature
+  113  git log --oneline
+  114  git init
+  115  vim text.txt
+  116  git add text.txt; git commit -m "C1M"
+  117  text.txt
+  118  vim text.txt
+  119  git add text.txt;git commit -m "C2M"
+  120  git branch feature
+  121  git checkout feature
+  122  vim text.txt
+  123  git add text.txt;git commit -m "C1F"
+  124  git checkout master
+  125  vim text.txt
+  126  git merge feature
+  127  git add text.txt;git commit -m "C3M"
+  128  cat text.txt
+  129  git merge feature
+  130  vim text.txt
+  131  git add text.txt;git commit -m "MC"
+  132  git log --oneline
+  133  git branch -d feature
+  134  git branch
+  135  git init
+  136  ls -a
+  137  touch README.md
+  138  vim README.md
+  139  git add README.md; git commit -m "initial commit"
+  140  git log --oneline
+  141  git log
+  142  clear
+  143  nano README.md
+  144  cat README.md
+  145  git status
+  146  git add README.md;git commit -m "Second commit"
+  147  git log --oneline
+  148  vim README.md
+  149  git add README.md;git commit -m "third commit"
+  150  git log
+  151  git log --oneline
+  152  git checkout  1385ae70d3d5f04ce9d2de1a0b19f6bdf915f454
+  153  cat README.md
+  154  git checkout main
+  155  git checkout master
+  156  git checkout 1385ae7 
+  157  git checkout master
+  158  cat README.md
+  159  git branch milkshake-flavours
+  160  git branch
+  161  git checkout milkshake-flavours
+  162  nano milkshakes.md
+  163  git status
+  164  git add milshakes.md;git commit -m "MBC1"
+  165  git add milshakes.md;git commit -m "MBC1"
+  166  git add milkshakes.md;git commit -m "MBC1"
+  167  git log
+  168  git log --oneline
+  169  ls
+  170  nano README.md
+  171  git add README.md;git commit -m "random readme changes"
+  172  cat README.md
+  173  rm README.md
+  174  echo "booya" > README.md
+  175  cat README.md
+  176  vim README.md
+  177  git add README.md;git commit "rewrote readme"
+  178  git add README.md;git commit -m "rewrote readme"
+  179  git checkout master
+  180  git log --oneline
+  181  git checkout milkshake-flavours
+  182  git log --oneline
+  183  git checkout master
+  184  ls
+  185  git checkout history
+  186  git branch history
+  187  git branch
+  188  git checkout history
+  189  history > history.txt
